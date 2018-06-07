@@ -6,11 +6,17 @@
 
 using namespace std;
 
-string checktextinput(string guess, string keyword, string output)
+string checktextinput(string guess)
 {
-	if (guess == keyword)
+
+
+	if (guess == "look outside")
 	{
-		cout << output;
+		processing();
+	}
+	if (guess == "open hatch")
+	{
+
 	}
 	return output;
 }
