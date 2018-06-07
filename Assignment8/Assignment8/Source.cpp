@@ -3,11 +3,14 @@
 #include "string"
 #include "ctime"
 #include "vector"
-using std::cout;
-using std::endl;
 
-int return1()
+using namespace std;
+
+string checkinput(string guess, string keyword, string output)
 {
-	cout << 1 << endl;
-	return 1;
+	if (guess == keyword)
+	{
+		cout << output;
+	}
+	return output;
 }
