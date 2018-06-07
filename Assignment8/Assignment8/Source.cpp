@@ -6,7 +6,7 @@
 
 using namespace std;
 
-string checkinput(string guess, string keyword, string output)
+string checktextinput(string guess, string keyword, string output)
 {
 	if (guess == keyword)
 	{
